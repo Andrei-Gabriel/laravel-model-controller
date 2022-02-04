@@ -8,6 +8,8 @@
     <title>Movies</title>
 </head>
 <body>
-    @yield('pageContent')
+    <main>
+        @yield('pageContent')
+    </main>
 </body>
 </html>

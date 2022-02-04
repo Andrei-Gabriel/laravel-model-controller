@@ -1,7 +1,44 @@
 //
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
+}
+body {
+    background-color: rgb(96, 145, 168);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+        width: calc(100% / 2 - 30px);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        span {
+            line-height: 1.4;
+        }
+        .card__original-title {
+            font-size: 37px;
+        }
+        .card__title {
+            font-size: 27px;
+        }
+        .card__nationality {
+            font-size: 20px;
+        }
+        .card__vote {
+            font-size: 27px;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+    }
 }

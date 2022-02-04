@@ -1,3 +1,4 @@
+@extends('layout.base')
 @section('pageContent')
     @foreach ($movies as $movie)
     <div class="card">
